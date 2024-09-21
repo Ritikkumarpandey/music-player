@@ -1,0 +1,339 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 index.hml\par
+\par
+\b0\fs24 <!DOCTYPE html>\par
+<html lang="en">\par
+    <head>\par
+        <meta charset="UTF-8">\par
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">\par
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">\par
+        <title>Spotify - Your favourite music is here</title>\par
+        <link rel="stylesheet" href="style.css">\par
+        </head>\par
+<body>\par
+    <nav>\par
+        <ul>\par
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>\par
+            <li>Home</li>\par
+            <li>About</li>\par
+        </ul>\par
+    </nav>\par
+\par
+    <div class="container">\par
+        <div class="songList">\par
+            <h1>Best of NCS - No Copyright Sounds</h1>\par
+            <div class="songItemContainer">\par
+                <div class="songItem">\par
+                    <img alt="1">\par
+                    <span class="songName">Let me Love You</span>\par
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>\par
+                </div>\par
+                <div class="songItem">\par
+                    <img alt="1">\par
+                    <span class="songName">Let me Love You</span>\par
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>\par
+                </div>\par
+                <div class="songItem">\par
+                    <img alt="1">\par
+                    <span class="songName">Let me Love You</span>\par
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>\par
+                </div>\par
+                <div class="songItem">\par
+                    <img alt="1">\par
+                    <span class="songName">Let me Love You</span>\par
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>\par
+                </div>\par
+                <div class="songItem">\par
+                    <img alt="1">\par
+                    <span class="songName">Let me Love You</span>\par
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>\par
+                </div>\par
+                <div class="songItem">\par
+                    <img alt="1">\par
+                    <span class="songName">Let me Love You</span>\par
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>\par
+                </div>\par
+                <div class="songItem">\par
+                    <img alt="1">\par
+                    <span class="songName">Let me Love You</span>\par
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>\par
+                </div>\par
+                <div class="songItem">\par
+                    <img alt="1">\par
+                    <span class="songName">Let me Love You</span>\par
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>\par
+                </div>\par
+                <div class="songItem">\par
+                    <img alt="1">\par
+                    <span class="songName">Let me Love You</span>\par
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>\par
+                </div>\par
+                <div class="songItem">\par
+                    <img alt="1">\par
+                    <span class="songName">Let me Love You</span>\par
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>\par
+                </div>\par
+            </div>\par
+        </div>\par
+        <div class="songBanner"></div>\par
+    </div>\par
+\par
+    <div class="bottom">\par
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">\par
+        <div class="icons">\par
+            <!-- fontawesome icons -->\par
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>\par
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>\par
+            <i class="fas fa-3x fa-step-forward" id="next"></i> \par
+        </div>\par
+        <div class="songInfo">\par
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>\par
+        </div>\par
+    </div>\par
+    <script src="script.js"></script>\par
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>\par
+</body>\par
+</html>\par
+\par
+\par
+\par
+\par
+\b\fs32 style.css:-\par
+\par
+\b0\fs24 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');\par
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');\par
+body\{\par
+    background-color: antiquewhite;\par
+\}\par
+\par
+*\{\par
+    margin: 0;\par
+    padding: 0;\par
+\}\par
+\par
+nav\{\par
+    font-family: 'Ubuntu', sans-serif;\par
+\}\par
+\par
+nav ul\{\par
+    display: flex;\par
+    align-items: center;\par
+    list-style-type: none;\par
+    height: 65px;\par
+    background-color: black;\par
+    color: white;\par
+\}\par
+\par
+nav ul li\{\par
+    padding: 0 12px;\par
+\}\par
+.brand img\{\par
+    width: 44px;\par
+    padding: 0 8px;\par
+\}\par
+\par
+.brand \{\par
+    display: flex;\par
+    align-items: center;\par
+    font-weight: bolder;\par
+    font-size: 1.3rem;\par
+\}\par
+\par
+.container\{\par
+    min-height: 72vh;\par
+    background-color: black;\par
+    color: white;\par
+   font-family: 'Varela Round', sans-serif;\par
+   display: flex;\par
+   margin: 23px auto;\par
+   width: 70%;\par
+   border-radius: 12px;\par
+   padding: 34px;\par
+   background-image: url('bg.jpg');\par
+\}\par
+\par
+.bottom\{\par
+    position: sticky;\par
+    bottom: 0;\par
+    height: 130px;\par
+    background-color: black;\par
+    color: white;\par
+    display: flex;\par
+    justify-content: center;\par
+    align-items: center;\par
+    flex-direction: column; \par
+\}\par
+\par
+.icons\{\par
+    margin-top: 14px; \par
+\}\par
+.icons i\{\par
+    cursor: pointer;\par
+\}\par
+\par
+#myProgressBar\{\par
+    width: 80vw; \par
+    cursor: pointer;\par
+\}\par
+\par
+.songItemContainer\{\par
+    margin-top: 74px;\par
+\}\par
+\par
+.songItem\{\par
+    height: 50px;\par
+    display: flex;\par
+    background-color: white;\par
+    \par
+    color: black;\par
+    margin: 12px 0;\par
+    justify-content: space-between;\par
+    align-items: center;\par
+    border-radius: 34px;\par
+\}\par
+\par
+.songItem img\{\par
+    width: 43px;\par
+    margin: 0 23px;\par
+    border-radius: 34px;\par
+\}\par
+\par
+.timestamp\{\par
+    margin: 0 23px;\par
+\}\par
+\par
+.timestamp i\{\par
+    cursor: pointer;\par
+\}\par
+\par
+.songInfo\{\par
+    position: absolute;\par
+    left: 10vw;\par
+    font-family: 'Varela Round', sans-serif;\par
+\}\par
+\par
+.songInfo img\{\par
+    opacity: 0;\par
+    transition: opacity 0.4s ease-in;\par
+\}\par
+\par
+@media only screen and (max-width: 1100px) \{\par
+    body \{\par
+      background-color: red;\par
+    \}\par
+  \}\par
+\par
+\b\fs32 scripts.js\par
+\par
+\b0\fs24 console.log("Welcome to Spotify");\par
+\par
+// Initialize the Variables\par
+let songIndex = 0;\par
+let audioElement = new Audio('songs/1.mp3');\par
+let masterPlay = document.getElementById('masterPlay');\par
+let myProgressBar = document.getElementById('myProgressBar');\par
+let gif = document.getElementById('gif');\par
+let masterSongName = document.getElementById('masterSongName');\par
+let songItems = Array.from(document.getElementsByClassName('songItem'));\par
+\par
+let songs = [\par
+    \{songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"\},\par
+    \{songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"\},\par
+    \{songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"\},\par
+    \{songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"\},\par
+    \{songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"\},\par
+    \{songName: "Rabba - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"\},\par
+    \{songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"\},\par
+    \{songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"\},\par
+    \{songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"\},\par
+    \{songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"\},\par
+]\par
+\par
+songItems.forEach((element, i)=>\{ \par
+    element.getElementsByTagName("img")[0].src = songs[i].coverPath; \par
+    element.getElementsByClassName("songName")[0].innerText = songs[i].songName; \par
+\})\par
+ \par
+\par
+// Handle play/pause click\par
+masterPlay.addEventListener('click', ()=>\{\par
+    if(audioElement.paused || audioElement.currentTime<=0)\{\par
+        audioElement.play();\par
+        masterPlay.classList.remove('fa-play-circle');\par
+        masterPlay.classList.add('fa-pause-circle');\par
+        gif.style.opacity = 1;\par
+    \}\par
+    else\{\par
+        audioElement.pause();\par
+        masterPlay.classList.remove('fa-pause-circle');\par
+        masterPlay.classList.add('fa-play-circle');\par
+        gif.style.opacity = 0;\par
+    \}\par
+\})\par
+// Listen to Events\par
+audioElement.addEventListener('timeupdate', ()=>\{ \par
+    // Update Seekbar\par
+    progress = parseInt((audioElement.currentTime/audioElement.duration)* 100); \par
+    myProgressBar.value = progress;\par
+\})\par
+\par
+myProgressBar.addEventListener('change', ()=>\{\par
+    audioElement.currentTime = myProgressBar.value * audioElement.duration/100;\par
+\})\par
+\par
+const makeAllPlays = ()=>\{\par
+    Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>\{\par
+        element.classList.remove('fa-pause-circle');\par
+        element.classList.add('fa-play-circle');\par
+    \})\par
+\}\par
+\par
+Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>\{\par
+    element.addEventListener('click', (e)=>\{ \par
+        makeAllPlays();\par
+        songIndex = parseInt(e.target.id);\par
+        e.target.classList.remove('fa-play-circle');\par
+        e.target.classList.add('fa-pause-circle');\par
+        audioElement.src = `songs/$\{songIndex+1\}.mp3`;\par
+        masterSongName.innerText = songs[songIndex].songName;\par
+        audioElement.currentTime = 0;\par
+        audioElement.play();\par
+        gif.style.opacity = 1;\par
+        masterPlay.classList.remove('fa-play-circle');\par
+        masterPlay.classList.add('fa-pause-circle');\par
+    \})\par
+\})\par
+\par
+document.getElementById('next').addEventListener('click', ()=>\{\par
+    if(songIndex>=9)\{\par
+        songIndex = 0\par
+    \}\par
+    else\{\par
+        songIndex += 1;\par
+    \}\par
+    audioElement.src = `songs/$\{songIndex+1\}.mp3`;\par
+    masterSongName.innerText = songs[songIndex].songName;\par
+    audioElement.currentTime = 0;\par
+    audioElement.play();\par
+    masterPlay.classList.remove('fa-play-circle');\par
+    masterPlay.classList.add('fa-pause-circle');\par
+\par
+\})\par
+\par
+document.getElementById('previous').addEventListener('click', ()=>\{\par
+    if(songIndex<=0)\{\par
+        songIndex = 0\par
+    \}\par
+    else\{\par
+        songIndex -= 1;\par
+    \}\par
+    audioElement.src = `songs/$\{songIndex+1\}.mp3`;\par
+    masterSongName.innerText = songs[songIndex].songName;\par
+    audioElement.currentTime = 0;\par
+    audioElement.play();\par
+    masterPlay.classList.remove('fa-play-circle');\par
+    masterPlay.classList.add('fa-pause-circle');\par
+\})\b\fs44\par
+}
+ 
